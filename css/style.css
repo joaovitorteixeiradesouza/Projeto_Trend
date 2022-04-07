@@ -1,0 +1,413 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    box-sizing: border-box!important;
+    color: rgb(255, 250, 250);
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    
+}
+
+#header-content {
+    background-image: url(../img/fundo_header1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+}
+
+#header-principal {
+    width: 340px;
+}
+
+#imagens_principais {
+    text-align: left;
+}
+
+#sobreposta_titulo {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -8px;
+}
+
+#sobreposta_objeto {
+    position: relative;
+    margin-left: -60px;
+    margin-top: 30px;
+}
+
+#triangulo {
+    margin-right: -10px;
+}
+
+#setas {
+    margin-left: 40px;
+}
+
+#bolinhas {
+    margin-top: 90px; 
+    margin-left: -78px;
+}
+
+#mulher {
+    margin-top: -115px; 
+    margin-left: 75px;
+}
+
+#header_texto {
+    text-align: right;
+    margin-top: -155px;
+}
+
+#header_texto p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+#edicao {
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+    font-size: 8px;
+}
+
+#imagens_secundarias {
+    text-align: center;
+    margin-top: -117px;
+}
+
+#content {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    margin-top: -34px;
+}
+
+#banner {
+    width: 350px;
+    display: grid;
+    justify-content: center;
+}
+
+#banner_texto {
+    width: 351px;
+    background-color: #ffffff;
+    margin-top: -105px;
+}
+
+#banner h1 {
+    color: black;
+    font-size: 23.21px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    text-align: left;
+}
+
+#banner h2 {
+    color: gray;
+    font-size: 13.12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    text-align: left;
+}
+
+#banner p {
+    color: gray;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    font-style: italic;
+    text-align: left;
+    opacity: 0.5;
+}
+
+#group1 {
+    width: 350px;
+    text-align: center;
+    margin-top: 40px;
+    display: grid;
+    justify-content: center;
+}
+
+#nba {
+    width: 250px;
+    text-align: left;
+    display: grid;
+    justify-content: center;
+}
+
+#nba_texto {
+    width: 251px;
+    background-color: #ffffff;
+    margin-top: -40px;
+}
+
+#nba h1 {
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+#nba p {
+    color: gray;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    font-style: italic;
+    opacity: 0.5;
+}
+
+#whatsapp {
+    width: 250px;
+    text-align: left;
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+}
+
+#whatsapp_texto {
+    width: 251px;
+    background-color: #ffffff;
+    margin-top: -40px;
+}
+
+#whatsapp h1 {
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+#whatsapp p {
+    color: gray;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    font-style: italic;
+    opacity: 0.5;
+}
+
+#logo_mandarin {
+    background-image: url(../img/retangulo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+footer p {
+    color: black;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    opacity: 0.7;
+}
+
+footer a {
+    text-decoration: underline;
+    color: black;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 760px) {
+    #header-principal  {
+        width: 700px;
+    }
+
+    #header_texto {
+        margin-left: -30px;
+    }
+
+    #header_texto p {
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+    #imagens_secundarias {
+        margin-top: -125px;
+    }
+
+    #bolinhas {
+        margin-left: -150px;
+    }
+
+    #mulher {
+        margin-left: 150px;
+    }
+
+    #edicao {
+        margin-top: 13px;
+        margin-bottom: 5px;
+    }
+
+    #banner {
+        width: 700px;
+    }
+
+    #banner_texto {
+        width: 700px;
+        margin-top: -150px;
+    }
+
+    #banner h1 {
+        font-size: 29.21px;
+    }
+
+    #banner h2 {
+        font-size: 17.12px;
+    }
+
+    #group1 {
+        width: 700px;
+        display: inline-flex;
+        justify-content: flex-start;
+    }
+
+    #nba {
+        width: 350px;
+        padding-right: 25px;
+    }
+
+    #nba_texto {
+        width: 342px;
+        margin-top: -55px;
+    }
+
+    #whatsapp {
+        width: 350px;
+        margin-top: 0px;
+    }
+    
+    #whatsapp_texto {
+        width: 340px;
+        margin-top: -55px;
+    }
+
+}
+
+@media (min-width: 1065px) {
+    #header-principal {
+        width: 1000px;
+    }
+
+    #sobreposta_titulo {
+        margin-left: -8px;
+    }
+
+    #sobreposta_objeto {
+        position: relative;
+        margin-left: -30px;
+        margin-top: 30px;
+    }
+
+    #bolinhas {
+        margin-left: -450px;
+    }
+
+    #banner {
+        width: 1000px;
+    }
+
+    #banner_texto {
+        width: 1000px;
+    }
+
+    #banner h1 {
+        font-size: 42.21px;
+    }
+
+    #banner h2 {
+        font-size: 23.12px;
+    }
+
+    #group1 {
+        width: 1000px;
+    }
+
+    #nba {
+        width: 492px;
+        padding-right: 25px;
+    }
+
+    #nba_texto {
+        width: 492px;
+        margin-top: -70px;
+    }
+
+    #nba h1 {
+        font-size: 32px;
+    }
+
+    #whatsapp {
+        width: 492px;
+    }
+
+    #whatsapp_texto {
+        width: 492px;
+        margin-top: -70px;
+    }
+
+    #whatsapp h1 {
+        font-size: 32px;
+    }
+    
+}
+
+@media (max-width: 370px) {
+    #header-principal {
+        width: 300px;
+    }
+
+    #mulher {
+        margin-left: 38px;
+    }
+
+    #banner {
+        width: 360px;
+    }
+
+    #banner_texto {
+        width: 300px;
+        margin-top: -90px;
+    }
+
+    #nba_texto{
+        margin-top: -40px;
+    }
+
+    #whatsapp_texto {
+        margin-top: -40px;
+    }
+    
+}
+
+    
